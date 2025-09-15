@@ -18,6 +18,10 @@ elif opcao == 2:
 elif opcao == 3:
     print(f'Resultado da multiplicação: {a * b}')
 elif opcao == 4:
-    print(f'Resultado da divisão: {a / b}')
+    if b != 0:
+        print(f'Resultado da divisão: {a / b}')
+    else:
+        print("Erro. não é possível fazer divisão por zero")
+
 else:
     print("Opção invalida")
